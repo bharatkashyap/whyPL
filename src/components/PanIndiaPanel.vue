@@ -13,10 +13,6 @@
 import card from './Card.vue'
 import cardGeo from './CardGeo.vue'
 
-navigator.geolocation.getCurrentPosition(function (position) {
-  console.log(position.coords.longitude + ',' + position.coords.latitude)
-})
-
 export default {
   name: 'PanIndiaPanel',
   data () {
