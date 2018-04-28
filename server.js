@@ -6,6 +6,7 @@ var express = require('express'),
 app = express();
 app.use(serveStatic(__dirname + "/dist"));
 
+
 var port = process.env.PORT || 8080;
 app.listen(port);
 
