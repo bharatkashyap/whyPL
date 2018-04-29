@@ -64,7 +64,6 @@ Although the page load times are satisfactory on strong network connections, a n
 ## Lighthouse Audit ##
  ![Light House Audit](https://i.imgur.com/RhA6COL.png)
 
-#### Flaws 
     * **Performance** :  A major error has been including all of Bootstrap's CSS and Javascript, which despite being minified and GZipped, signiciantly adds to First-Paint time. This could have been avoided using inlining these certain portions of critical CSS.
     * **PWA** :  Lighthouse has penalised the app for not providing for a custom splash screen, header bar not matching brand colours, and not including a prompt to 'Add to Home Screen'.
 
