@@ -36,6 +36,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'chart.js': 'chart.js/dist/Chart.js'
     }
   },
   module: {

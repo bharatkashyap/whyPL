@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import VueChartkick from 'vue-chartkick'
 import Router from 'vue-router'
-import Skeleton from '@/components/Skeleton'
+import Skeleton from '../Components/Skeleton.vue'
+import VueChartkick from 'vue-chartkick'
 
 Vue.use(Router)
 Vue.use(VueChartkick)

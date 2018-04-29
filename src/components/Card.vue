@@ -23,7 +23,7 @@ export default {
 <style scoped>
 
 .card {
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans', sans-serif;
   position: relative;
   width: 100%;
   padding: 0;

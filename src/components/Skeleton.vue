@@ -22,12 +22,6 @@
 
 <script>
 import overviewPanel from './OverviewPanel.vue'
-import panindiaPanel from './PanIndiaPanel.vue'
-import powerplayPanel from './PowerPlayPanel.vue'
-import bighittingPanel from './BigHittingPanel.vue'
-import moneyballPanel from './MoneyBallPanel.vue'
-import slogoversPanel from './SlogOversPanel.vue'
-import photofinishPanel from './PhotoFinishPanel.vue'
 
 export default {
   name: 'Skeleton',
@@ -60,12 +54,12 @@ export default {
   },
   components: {
     overviewPanel,
-    panindiaPanel,
-    powerplayPanel,
-    bighittingPanel,
-    moneyballPanel,
-    slogoversPanel,
-    photofinishPanel
+    'panindiaPanel' : () => import('./PanIndiaPanel.vue'),
+    'powerplayPanel' : () => import('./PowerPlayPanel.vue'),
+    'bighittingPanel' : () => import('./BigHittingPanel.vue'),
+    'moneyballPanel' : () => import('./MoneyBallPanel.vue'),
+    'slogoversPanel' : () => import('./SlogOversPanel.vue'),
+    'photofinishPanel' : () => import('./PhotoFinishPanel.vue')
   }
 }
 </script>
@@ -94,7 +88,7 @@ export default {
 {
   font-weight: bold;
   font-size: 1.4rem;
-  font-family: 'Muli';
+  font-family: 'Muli', sans-serif;
   position: relative;
     top: 3vh;
 }
@@ -102,7 +96,7 @@ export default {
 {
   font-weight: normal;
   font-size: 0.8rem;
-  font-family: 'Muli';
+  font-family: 'Muli', sans-serif;
   position: relative;
     top: 2.3vh;
 }
