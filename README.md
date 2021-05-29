@@ -1,6 +1,6 @@
 # whypl
 
-> A Vue.js dashboard that delivers a concise history of the Indian Premier League for those new to the game
+> A Vue.js dashboard that delivers a concise history of the Indian Premier League for those new to the game: [link](https://opposite-kick.surge.sh/#/)
 
 ## Frameworks and Libraries
 * Vue CLI, and thus :
